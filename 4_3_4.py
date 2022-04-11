@@ -1,4 +1,7 @@
+"""
 
+
+""""""
 Class: Fruit
 ...
 Attributes
@@ -7,12 +10,15 @@ origin_str : str
     a formatted string to print out where the fruit originates
 name : str
     the name of the fruit
+
+
 Function: importance: to explain about the fruit importance
 ...
 Attributes
 ----------
 imp_str : str
     a formatted string to print the importance of the fruit
+
 """
 class fruit():
     """
@@ -35,7 +41,7 @@ class fruit():
     def importance(self, imp_str):
         print(f"{self.name} Importance is {imp_str}")
     """
-    
+ """   
 class fruit():
     """
     A class used to represent a Fruit
@@ -64,3 +70,4 @@ class fruit():
 fruit  # __main__.fruit is class object
 apple = fruit('Originated from Central Asia', 'Apple')
 apple.importance("slows the growth of cancer cells")
+
